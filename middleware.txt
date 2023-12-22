@@ -1,0 +1,2 @@
+app.use() will run for all types of requests
+app.get('./) will only run for get requests to specific routes
