@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET  http://localhost:3000/subscribers/6582e7f10382cbafbdaf6a37
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Ahmed Abdullah",
+    "subscribedToChannel": "Manchester United"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6582e7f10382cbafbdaf6a37
+
+###
+
+PATCH http://localhost:3000/subscribers/6582e7f10382cbafbdaf6a37
+Content-Type: application/json
+
+{
+    "name": "Garnacho"
+}
